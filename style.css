@@ -1,0 +1,346 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+}
+header.ust{
+    background: url(images/anaekran.jpg);
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+header.header2{
+    background: url(images/headerr.png);
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+ul li img{
+   position: relative;
+   right: 10px;
+   top: -15px;
+}
+
+
+ul li ul li:hover div.ilkdiv{
+    background-color: #2c2a2a;
+    transition-duration: 0.3s;
+   
+}
+div.ilkdiv:hover{
+    background-color: #2c2a2a;
+    transition-duration: 0.3s;
+    
+}
+
+div.ilkdiv{
+    width: 180px;
+    height: 115px;
+    position: fixed;
+    bottom: 35px;
+    top: 0px;
+    z-index: 1;
+}
+
+ ul li ul li{
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    width: 185px;
+    height: 100px;
+    margin-top:px;
+    background-color: #2c2a2a;
+    
+}
+ul li ul li:hover{
+    background-color: #243a7d;
+    transition-duration: 0.5s;
+}
+ul li ul li a{
+    position: relative;
+    font-size: 17px;
+    left: 40px;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+
+ul li:hover ul li{
+    display: flex;
+}
+ul li ul{
+    width: 185px;
+    height: 580px;
+    background-color: #2c2a2a;
+    display: none;
+    position: relative;
+    top: -29px;
+    right: 5px;
+}
+
+li.arama{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+ul li:hover ul{
+    display: block;
+}
+
+
+div.video{
+    width: 90%;
+    height: 380px;
+    background-color: white;
+    left: 90px;
+    position: relative;
+    top: 70px;
+}
+
+div.seffafankara{
+    position: relative;
+    width: 520px;
+    height: 120px;
+    left: 700px;
+    bottom: 260px;
+}
+#cizgi{
+    border: 1px solid black;
+}
+div.seffafankara h1{
+    font-size: 27px;
+    padding: 6px;
+}
+div.seffafankara p{
+    padding: 10px;
+}
+div.seffafankara a{
+    text-decoration: none;
+    color: white;
+    background-color: #243a7d;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 200px;
+    top: 60px;
+    font-size: 23px;
+}
+
+
+div.seffafankara a:hover{
+    color: white;
+    background-color: #3251ae;
+    transition-duration: 0.3s;
+    
+}
+div.arkaplan{
+    position: absolute;
+    z-index: 0;
+}
+div.digerleri{
+    width: 70%;
+    height: 710px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: auto;
+    top: 20px;
+}
+div.digerleri h1{
+    font-size: 27px;
+    color: black;
+}
+div.digerleri p{
+    margin-top: 10px;
+    color: black;
+}
+div.digerleri div{
+    position: relative;
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    
+}
+div.digerleri img{
+    position: relative;
+    bottom: 120px;
+    right: 200px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    background-color: #243a7d;
+    top:800px;
+    z-index: 1;
+}
+section p{
+    color: white;
+    position: relative;
+    top: 35px;
+    margin-left: 20px;
+}
+
+section:hover{
+    background-color: #3251ae;
+    transition-duration: 0.3s;
+}
+
+a.button{
+    text-decoration: none;
+    color: white;
+    background-color: #243a7d;
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 650px;
+    top: 690px;
+    font-size: 23px;
+}
+a.button:hover{
+    background-color: #3251ae;
+    transition-duration: 0.3s;
+}
+
+hr:not(#cizgi){
+    border: 1px solid black;
+    width: 700px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+footer img{
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    margin-right: 20px;
+    float: right;
+    top: 30px;
+    right: 20px;
+}
+img#dıs:hover {
+    border-radius: 120px;
+    transition-duration: 1.2s;   
+}
+
+@media screen and (max-width: 425px){
+    div.video{
+        left: 20px;
+        width: 90%;
+        height: 80%;
+    }
+    div.video video{
+        left: 20px;
+        width: 90%;
+        height: 40%;
+    }
+    #cizgi{
+        width: 70%;
+    }
+
+    div.seffafankara a{
+        left: 80px;
+        font-size: 23px;
+    }
+    div.seffafankara{
+        width: 90%;
+        left: 20px;
+        top: 10px;
+    }
+    
+    div.digerleri div{
+        margin-top: 80px;
+        left: 30px;
+        
+    }
+    div.digerleri img{
+       width: 60px;
+       height: 60px;
+        bottom: 120px;
+        right: 50px;
+        
+    }
+    hr:not(#cizgi){
+        width: 80%;
+    }
+    a.button{
+       left: 130px; 
+    }
+    section p{
+        color: white;
+        position: relative;
+        top: 17px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 1280px){
+    div.video{
+     top: 80px;
+     left: 80px;
+     height: 80%;
+    }
+    div.video video{
+        left: -80px;
+        width: 90%;
+        height: 70%;
+    }
+    #cizgi{
+        width: 70%;
+    }
+    
+    div.seffafankara a{
+        top: -70px;
+        left: 700px;
+        font-size: 23px;
+    }
+    div.seffafankara{
+        width: 50%;
+        left: 40px;
+        top: 50px;
+    }
+    div.digerleri{
+        width: 100%;
+    }
+    
+    div.digerleri div{
+        width: 70%;
+        margin-top: 80px;
+        left: 300px;
+        
+    }
+    div.digerleri img{
+       width: 120px;
+       height: 120px;
+        bottom: 120px;
+        right: -70px;
+        
+    }
+    a.button{
+        top: 800px;
+       left: 600px; 
+    }
+    section p{
+        color: white;
+        position: relative;
+        top: 35px;
+        margin-left: 10px;
+    }
+    
+}
